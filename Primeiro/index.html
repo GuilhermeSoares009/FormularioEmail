@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel=" stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans%7CDroid+Serif%7CLato%7CLobster%7COpen+Sans%7COswald%7CPT+Sans%7CRaleway%7CSource+Sans+Pro%7CUbuntu%7CRoboto">
+    <title>Venda</title>
+    <script text="text/javascript" src="../js/acoes.js"></script>
+</head>
+
+<body>
+    <!--Area das empresas-->
+    <header id="Empresas">
+        <div>
+            <img id="img1" src="/img/gabriel-oppenheimerI-unsplash.jpg">
+            <img id="img2" src="http://casestudies.com.br/wp-content/uploads/2018/01/2.png">
+        </div>
+    </header>
+    
+    <!--Área do texto, imagem e formulário-->
+    <section id="inscricao">
+        <div id="espacomenor">
+            <aside id="esquerda">
+                <h1> [Ebook] Guia do HTML e CSS</h1>
+                <h2>Dê seus primeiros passos com desenvolvimento<br> Web e aprenda a criar uma página do ZERO!</h2>
+                <img src="https://d335luupugsy2.cloudfront.net/cms/files/45279/1549910747/%24s8wt5gjksqp" alt="imagem">
+            </aside>
+
+            <section id="direita">
+                <div id="formularioapertado">
+                    <div id="formulario">
+                        <header id="titulo">
+                            <h1>Faça o download grátis aqui</h1>
+                            <h2>Preencha o formulário abaixo para acessar o ebook.</h2>
+                        </header>
+                        <!--Area do formulario-->
+                        <form method="post" id="fUsuario">
+                            <fieldset class="secoes">
+                                <label class="fonte"><p>Nome*</p></label>
+                                <input type="text" name="aNome" id="sNome" class="campotexto" size="20" maxlength="30" placeholder="Digite aqui seu nome" onclick="tirarborda()">
+                            </fieldset>
+
+                            <fieldset class="secoes">
+
+                             <label class="fonte"><p>Email*</p></label>
+                             <input type="text" name="aEmail" id="sEmail" class="campotexto" size="20" maxlength="30" placeholder="Digite aqui seu email">
+                             </fieldset>
+
+                             <fieldset class="secoes">
+                                 <label class="fonte"><p>Cidade*</p></label>
+                                 <input class="campotexto" list="cidades">
+                                <datalist class="campotexto" id="cidades">
+                                    <option class="opcoes">São Luís                    </option>
+                                    <option class="opcoes">Teresina</option>
+                                    <option class="opcoes">Paraná</option>
+                                </datalist>
+                            </fieldset>
+
+                            <fieldset class="secoes">
+                               <p class="fonte" >Você gostaria de receber news sobre TI, Negócios e Inovação?*</p>
+                                <input type="radio" id="Sim" name="opc1" checked><label for="Sim" class="fonte" id="opc">Sim</label><br/>
+                                <input type="radio" id="Nao" name="opc1"> <label for="Nao" class="fonte" id="opc0">Não</label>
+                            </fieldset>
+
+                            <fieldset class="secoes">
+                                <p class="fonte">11+8?</p>
+                                <input type="number" class="campotexto" id="numero">
+                            </fieldset>
+                            
+                            <fieldset class="secoes" id="caixatexto">
+                                <input type="submit" id="send" href="#" value="Acessar meu E-book grátis agora!">
+                            </fieldset><br/>
+                            
+                            <p id="mensagem">Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.</p>
+                        </form>
+                    </div>
+                </div>    
+            </section>
+        </div>
+    </section>
+
+    <!--Area de informações-->
+    <section id="info">
+        <div id="espaco">
+            <div id="esp2">
+                <section>
+                    <img src="/img/amigos.png">
+                    <h2 id="oferta">Lorem ipsum</h2>
+                    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum ornare dui, eu semper odio rutrum vel.</p>
+                </section>                
+                
+                <section>
+                    <img src="/img/cidade.png">
+                    <h2 id="oferta">Lorem ipsum</h2>
+                    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum ornare dui, eu semper odio rutrum vel.</p>
+                </section>               
+                
+                <section>
+                    <a target="_blank" href="https://pixabay.com/pt/users/Engin_Akyurt-3656355/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3045580">
+                        <img src="/img/irmãos.png">
+                    </a>
+                    <h2 id="oferta">Lorem ipsum</h2>
+                    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum ornare dui, eu semper odio rutrum vel.</p>
+                </section>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

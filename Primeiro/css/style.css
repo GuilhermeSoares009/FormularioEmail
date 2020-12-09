@@ -1,0 +1,530 @@
+/*Essas configurações agem em todos os elementos do html*/
+* {
+    margin:0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    overflow-x:hidden;
+}
+
+/*ÁREA DO TOPO*/
+
+/*Área das empresas*/
+header#Empresas {
+    background-color:white;
+    width:100%;
+    height:34%;
+    text-align: center;
+}
+
+/*Altero as medidas e posições da imagem*/
+header#Empresas img {
+    position: relative;
+    max-width: 500px;;
+    width:15%;
+    top: 24px;
+    min-width: 140px;
+}
+
+
+/*
+#img1{
+}
+*/
+#img2{
+    margin-left:3%;
+}
+/*
+=================================================
+        ÁREA 2
+=================================================
+*/
+/*Deixei o tamanhop máximo se baseando no tamanho da tela e a altura ta fixa com fundo azul*/
+section#inscricao {
+    width:100%;
+    height:769px;
+    background-color:#407094;
+}
+
+/*Dei um espaço entre os lados para o conteudo ficar no meio*/
+div#espacomenor {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    /*width: 85%; height:98%;*/
+}
+
+/*ÁREA DA ESQUERDA TÍTULOS E IMAGENS*/
+/*Boto esse lado para flutuar para esquerda*/
+
+aside#esquerda, section#direita {
+    width:50%;
+    height:auto;
+    display: inline-block;
+} 
+aside#esquerda {
+    float: left;
+    margin-top: 79px;
+}
+
+/*Titulo1*/
+aside#esquerda h1{
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    font-weight:400px
+}
+
+/*Título2*/
+aside#esquerda h2 {
+    color: white;
+    font-family: Raleway, sans-serif;  
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/*Logo do produto*/
+aside#esquerda img{
+    width: 430px;
+    max-width:100%;
+    height: auto;
+}
+
+/*ÁREA DA DIREITA TÍTULOS E FORMULÁRIO*/
+/*Dei uma margem no topo do formulário na seção da direita que criei
+  e o tamanho da altura total da seção*/
+section#direita {
+    margin-top: 61px;
+    height: 822px;
+    width: 40%;
+    padding:17px;
+}
+
+/*Aqui vou usar o padding no formulário para poder diminuir nos lados
+  o formulário.*/
+div#formularioapertado{
+    height: 727px;
+    border-radius: 14px;
+}
+
+/*Área do formulário, limite do formulário*/
+div#formulario {
+    background-color:#EBEBEB;    
+    height: 643px;
+    text-align: left;
+    padding: 3px;
+    border-radius: 26px;
+}
+
+header#titulo {
+    padding: 25px 26px 0px 30px;
+}
+
+
+/*Título 1*/
+header#titulo h1 {
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+    color:#707070;
+}
+
+/*Título 2*/
+header#titulo h2 {
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    color: #828082;
+    font-weight:100;
+}
+/*Tira as bordas de cada secao de fieldset*/
+.secoes {
+    border:none;
+}
+
+/*Tira borda da área de texto sem clique e com clique tira a linha preta de fora*/
+.campotexto
+{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 36px;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+/*Alterei a fonte, cor e tamanho*/
+.fonte {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #7d7d7d;
+}
+
+/*Coloquei um padding para poder diminuir os espaços da borda até o conteúdo*/
+form#fUsuario {
+    padding: 20px 20px 0px 20px;
+}
+
+
+/*Sim e Nao*/
+
+/*Afasto o botões do topo de cada*/
+#Sim, #Nao {
+    margin-top: 14px;
+}
+
+
+/*Afasto a selecao 1 da esquerda*/
+#opc {
+    margin-left:5px;
+}
+
+/*Afasto a selecao 2 da esquerda*/
+#opc0 {
+    margin-left: 2px;
+}
+
+/*  Botao mensagem */
+#send {
+    max-width: 394px;
+    width: 100%;
+    height: 56px;
+    background-color: green;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 20px;
+}
+
+/*Alinho caixa de texto*/
+fieldset#caixatexto {
+    text-align: center;
+    min-width: 200px;
+}
+
+/*Texto no fim da lista*/
+p#mensagem {
+    color: #535353;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 0px 12px;
+}
+
+section#info {
+    height: 360px;
+}
+
+
+section#info div#espaco {
+    margin:0px 10%;
+}
+
+div#esp2 {
+    display: flex;
+}
+
+/*Seções com imagem, titulo e texto*/
+div#esp2 section {
+    text-align: center;
+    width: 33%;
+    margin-top:38px;
+}
+
+div#esp2 section img {
+    border-radius: 5px;
+}
+
+
+h2#oferta{
+    font-size: 20px;
+    color: #3d3d3d;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text2 {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #3d3d3d;
+}
+
+#oferta, #text2 {
+    margin-top:10px;
+}
+
+.opcoes{
+    width:80px;
+}
+
+/********MEDIAS__QUERIES**********/
+
+@media (max-width: 320px) {
+    header#Empresas div{
+     display: flex;   
+     margin:0px 5%;
+    }
+
+    aside#esquerda, section#direita{
+        width: 100%;
+    }
+
+    section#inscricao{
+        height: 1381px;
+    }
+
+    section#direita{
+        height: 1379px;
+        padding: 3px;
+    }
+
+    #send {
+        font-size: 0.7em;
+    }
+
+    header#titulo {
+        padding: 25px 26px 0px 20px;
+    }
+
+    form#fUsuario{
+        padding: 18px 13px 0px 6px;
+    }
+
+    div#formulario {
+        height: 692px;
+    }
+
+    div#esp2{
+        display: block;
+    }
+
+    div#esp2 section {
+        width: 100%;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    aside#esquerda, section#direita{
+        width: 100%;
+    }
+
+    div#esp2{
+        display: block;
+    }
+
+    div#esp2 section {
+        width: 100%;
+    }
+
+    section#inscricao {
+        height: 1363px;
+    }
+
+    div#formulario {
+        height: 674px;
+    }
+
+    #send {
+        font-size: 15px;
+    }
+
+    header#titulo {
+        padding: 25px 20px 0px 18px;
+    }
+
+    form#fUsuario {
+        padding:20px 8px 0px 7px;
+    }
+
+    section#direita{
+        padding: 0px;
+    }
+
+    p#mensagem{
+        font-size: 14px;
+        margin-top: -12px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+
+    header#Empresas img {
+        width: 42%;
+    }
+
+    aside#esquerda, section#direita{
+        width: 100%;
+        margin-top: 18px;
+    }
+
+    div#esp2 {
+        display: block;
+    }
+
+    section#inscricao {
+        height: 1317px;
+    }
+
+    section#direita{
+        padding: 2px;
+    }
+
+    header#titulo {
+        padding: 25px 26px 0px 26px;
+    }
+
+    form#fUsuario {
+        padding: 20px 20px 0px 14px;
+    }
+
+    #send {
+        font-size: 1em;
+    }
+
+    div#esp2 section {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 426px) and (max-width:579px ){
+    header#Empresas img {
+        width: 23%;
+    }
+    
+    aside#esquerda{
+        margin-top:32px
+    }
+
+    section#direita{
+        margin-top: 25px;
+    }
+
+
+    div#espacomenor{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+
+    div#formulario{
+        height: 640px;
+    }
+
+    aside#esquerda, section#direita{
+        width:100%;
+    }
+
+    section#inscricao {
+        height: 1305px;
+    }
+
+    section#direita {
+        width:90%;
+        padding: 6px;
+    }
+
+    #send {
+        font-size: 17px;
+    }
+
+    fieldset#caixatexto{
+        margin-top:10px;
+    }
+
+    p#mensagem {
+        font-size: 14px;
+        margin-top: -2px;
+    }
+
+    div#esp2 {
+        display: block;
+    }
+
+    div#esp2 section{
+        margin-top:48px;
+        width:100%;
+    }
+
+    section#info div#espaco{
+        margin: 0px 6%;
+    }
+
+    aside#esquerda h1{
+        font-size: 27px;
+    }
+
+    form#fUsuario {
+        padding: 20px 2px 0px 2px;
+    }
+
+
+    header#titulo {
+        padding: 12px 13px 0px 14px;
+    }
+}
+
+
+
+@media (min-width: 580px) and (max-width: 768px){
+    header#Empresas img {
+        width: 23%;
+    }
+
+    div#espacomenor{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    div#formulario{
+        height: 640px;
+    }
+
+    section#direita {
+        width:50%;
+        padding: 6px;
+    }
+
+    #send {
+        font-size: 14px;
+    }
+
+    p#mensagem {
+        font-size: 14px;
+        margin-top: -15px;
+    }
+
+    div#esp2 section{
+        margin-top:48px;
+    }
+
+    section#info div#espaco{
+        margin: 0px 4%;
+    }
+
+    aside#esquerda h1{
+        font-size: 27px;
+    }
+
+    form#fUsuario {
+        padding: 20px 2px 0px 2px;
+    }
+
+
+    header#titulo {
+        padding: 12px 13px 0px 14px;
+    }
+}
+
+@media (min-width: 769px){
+    section#direita {
+        width: 50%;
+        padding: 9px;
+    }
+
+    header#Empresas img{
+        width: 18%;
+    }
+}
